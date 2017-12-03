@@ -1,0 +1,6 @@
+VIDEO NOTES
+
+ML Definition #2, Tom Mitchell (1998) - Well Posted Learning Problem
+A computer program is said to "learn" from experience E w.r.t. some task T and
+some performance measure P, if its performance on T, as measured by P, improves
+with experience E.
