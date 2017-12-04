@@ -6,15 +6,15 @@ some performance measure P, if its performance on T, as measured by P, improves
 with experience E.
 
 Some types of learning algos:
-1. Supervised learning - Some "right answers" are given, task of the algo is to
-						 predict more right answers.
+1. Supervised learning:
+	Some "right answers" are given, task of the algo is to predict more right answers.
 						 
-						 Regression problem - continuous values for output
+	Regression problem - continuous values for output
 						 
-						 Classification problem - discrete values/classifications 
-						 for output. You could have infinite classifications of 
-						 something, but there are mathetmatical ways to store 
-						 infinite classifications.
-- Unsupervised learning
-- Reinforcement learning
-- Recommender systems
+	Classification problem - discrete values/classifications for output. You could have 
+	infinite classifications of something, but there are mathetmatical ways to store 
+	infinite classifications.
+
+2. Unsupervised learning
+3. Reinforcement learning
+4. Recommender systems
