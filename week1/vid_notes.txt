@@ -4,3 +4,15 @@ ML Definition #2, Tom Mitchell (1998) - Well Posted Learning Problem
 A computer program is said to "learn" from experience E w.r.t. some task T and
 some performance measure P, if its performance on T, as measured by P, improves
 with experience E.
+
+Some types of learning algos:
+1. Supervised learning - Some "right answers" are given, task of the algo is to
+						 predict more right answers.
+						 Regression problem - continuous values for output
+						 Classification problem - discrete values for output
+						 You could have infinite classifications of something, but
+						 there are mathetmatical ways to store infinite
+						 classifications.
+- Unsupervised learning
+- Reinforcement learning
+- Recommender systems
