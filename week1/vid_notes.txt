@@ -8,11 +8,13 @@ with experience E.
 Some types of learning algos:
 1. Supervised learning - Some "right answers" are given, task of the algo is to
 						 predict more right answers.
+						 
 						 Regression problem - continuous values for output
-						 Classification problem - discrete values for output
-						 You could have infinite classifications of something, but
-						 there are mathetmatical ways to store infinite
-						 classifications.
+						 
+						 Classification problem - discrete values/classifications 
+						 for output. You could have infinite classifications of 
+						 something, but there are mathetmatical ways to store 
+						 infinite classifications.
 - Unsupervised learning
 - Reinforcement learning
 - Recommender systems
