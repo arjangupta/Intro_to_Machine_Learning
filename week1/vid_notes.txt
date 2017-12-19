@@ -24,6 +24,17 @@ Some types of learning algos:
 	E.g. - computing equipment clusters, social network anaylsis, market segmentation,
 	astronomical data analysis.
 
+
+	Cocktail party problem
+	2 microphones, record a different combination of two people talking - couting in
+	English and Spanish, from two microphones at different locations in the room. Give
+	this data to an unsupervised ML algo, you will see that it is able to extract those
+	two voices. Similar situation when it is a human voice against music.
+
+	Cocktail party algo code:
+	[W, s, v] = svd( ( repmat( sum(x.*x, 1), size(x,1), 1 ) .* x ) *x' );
+
+	
 	
 
 3. Reinforcement learning
