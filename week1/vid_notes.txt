@@ -20,11 +20,12 @@ Some types of learning algos:
 
 	"Here is a dataset, can you find any structure in this dataset?"
 
-	Clustering technique.
+	Clustering technique:
 	E.g. - computing equipment clusters, social network anaylsis, market segmentation,
 	astronomical data analysis.
 
 
+	Non-clustering technique:
 	Cocktail party problem
 	2 microphones, record a different combination of two people talking - couting in
 	English and Spanish, from two microphones at different locations in the room. Give
@@ -34,7 +35,13 @@ Some types of learning algos:
 	Cocktail party algo code:
 	[W, s, v] = svd( ( repmat( sum(x.*x, 1), size(x,1), 1 ) .* x ) *x' );
 
-	
+	svd() is singular value decomposition (facortization of real/complex matrix)
+
+	More examples of unsupervised learning:
+	a. Given a set of news articles, group the articles into sets of articles about the
+	   same stories
+	b. Given a dataset of customer data, automatically discover market segments and
+	   group customers into different market segments
 	
 
 3. Reinforcement learning
