@@ -1,0 +1,48 @@
+VIDEO NOTES
+
+ML Definition #2, Tom Mitchell (1998) - Well Posted Learning Problem
+A computer program is said to "learn" from experience E w.r.t. some task T and
+some performance measure P, if its performance on T, as measured by P, improves
+with experience E.
+
+Some types of learning algos:
+1. Supervised learning:
+
+	Some "right answers" are given, task of the algo is to predict more right answers.
+						 
+	Regression problem - continuous values for output
+						 
+	Classification problem - discrete values/classifications for output. You could have 
+	infinite classifications of something, but there are mathetmatical ways to store 
+	infinite classifications.
+
+2. Unsupervised learning:
+
+	"Here is a dataset, can you find any structure in this dataset?"
+
+	Clustering technique:
+	E.g. - computing equipment clusters, social network anaylsis, market segmentation,
+	astronomical data analysis.
+
+
+	Non-clustering technique:
+	Cocktail party problem
+	2 microphones, record a different combination of two people talking - couting in
+	English and Spanish, from two microphones at different locations in the room. Give
+	this data to an unsupervised ML algo, you will see that it is able to extract those
+	two voices. Similar situation when it is a human voice against music.
+
+	Cocktail party algo code:
+	[W, s, v] = svd( ( repmat( sum(x.*x, 1), size(x,1), 1 ) .* x ) *x' );
+
+	svd() is singular value decomposition (facortization of real/complex matrix)
+
+	More examples of unsupervised learning:
+	a. Given a set of news articles, group the articles into sets of articles about the
+	   same stories
+	b. Given a dataset of customer data, automatically discover market segments and
+	   group customers into different market segments
+	
+
+3. Reinforcement learning
+4. Recommender systems
