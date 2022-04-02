@@ -7,3 +7,5 @@ You can check the current variables in scope using `who`. `whos` gives a more de
 Execute `clear` to clear all vars, and `clear a` will clear specifically a.
 
 Execute `load hello.mat` to load the contents of that .mat file into your current session.
+
+You can also save to a human readable format by executing `save hello.txt a -ascii`.
