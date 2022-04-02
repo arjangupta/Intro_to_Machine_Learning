@@ -16,3 +16,6 @@ A
 % Append a row and a column to A
 A = [[A; [10 11 12]], [111; 222; 333; 444]];
 A
+
+% Convert A to a vector
+A(:)
