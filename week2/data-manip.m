@@ -19,3 +19,8 @@ A
 
 % Convert A to a vector
 A(:)
+
+% Concat two matrices
+I4 = eye(4)
+[A I4]
+[A; I4]
