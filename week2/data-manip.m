@@ -12,3 +12,7 @@ A([1,2],:)
 % Reassign a column in A
 A(:,2) = [120, 150, 180];
 A
+
+% Append a row and a column to A
+A = [[A; [10 11 12]], [111; 222; 333; 444]];
+A
