@@ -21,6 +21,6 @@ A
 A(:)
 
 % Concat two matrices
-I4 = eye(4)
+I4 = eye(4);
 [A I4]
 [A; I4]
