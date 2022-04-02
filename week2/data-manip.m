@@ -5,3 +5,6 @@ A(2,:)
 
 % Get all elems in third column of A
 A(:,3)
+
+% Get all elems in first and second row of A
+A([1,2],:)
