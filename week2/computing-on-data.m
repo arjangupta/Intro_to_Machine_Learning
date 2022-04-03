@@ -30,3 +30,9 @@ a = [12 1 134 -1.2]
 printf("Find maximum in a\n")
 max(a)
 [val, ind] = max(a)
+
+printf("Column-wise max happens if you do max(A)\n")
+max(A)
+
+printf("Element-wise comparison, a < 3\n")
+a < 3
