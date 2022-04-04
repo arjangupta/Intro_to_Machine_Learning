@@ -36,3 +36,34 @@ max(A)
 
 printf("Element-wise comparison, a < 3\n")
 a < 3
+
+printf("C = magic(3)\n")
+C = magic(3)
+
+printf("Element-wise find comparison, find(a < 3)\n")
+find(a < 3)
+
+printf("Print the rows and columns for C>=7\n")
+[r,c] = find(C >= 7)
+
+printf("Sum up array a\n")
+sum(a)
+
+printf("Product of elements of a\n")
+prod(a)
+
+printf("Floor of elements of a\n")
+floor(a)
+
+printf("Ceiling of elements of a\n")
+ceil(a)
+
+% Compare the elements of two random 3x3 matrices, and build a 3x3 matrix of results
+max(rand(3), rand(3))
+
+A
+printf("Do column-wise max of A\n")
+max(A, [], 1)
+
+printf("Do row-wise max of A\n")
+max(A, [], 2)
