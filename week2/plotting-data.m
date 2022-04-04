@@ -30,6 +30,10 @@ plot(t, y1);
 subplot(1,2,2);
 plot(t, y2);
 axis([0.5 1 -1 1]) % set axes ranges - 0.5 to 1 on x axis, -1 to 1 on y axis
+waitforbuttonpress()
 print -djpg 'subplot-demo.jpg'
+clf; % clears the current figure
+A = magic(50);
+imagesc(A), colorbar;
 waitforbuttonpress()
 close
