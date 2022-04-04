@@ -63,7 +63,7 @@ max(rand(3), rand(3))
 
 A
 printf("Do column-wise max of A\n")
-max(A, [], 1)
+max(A, [], 1) % same as max(A)
 
 printf("Do row-wise max of A\n")
 max(A, [], 2)
