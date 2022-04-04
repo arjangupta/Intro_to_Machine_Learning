@@ -23,3 +23,13 @@ print -dpng 'sine-cosine-plot.png'
 waitforbuttonpress()
 close
 
+% For separate figure plots, specify figure(1) and figure(2)
+
+subplot(1,2,1) % Divides plot into a 1x2 grid, access first 1
+plot(t, y1);
+subplot(1,2,2);
+plot(t, y2);
+axis([0.5 1 -1 1]) % set axes ranges - 0.5 to 1 on x axis, -1 to 1 on y axis
+print -djpg 'subplot-demo.jpg'
+waitforbuttonpress()
+close
